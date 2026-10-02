@@ -1,0 +1,15 @@
+{
+  "claimable_total": 400,
+  "remaining_obligation": 900,
+  "schedules": [
+    {
+      "claimable": 400,
+      "id": "team",
+      "remaining_obligation": 900,
+      "returned_to_treasury": 0,
+      "unvested": 500,
+      "vested": 500
+    }
+  ],
+  "timestamp": 150
+}

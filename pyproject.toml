@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-vesting-planner"
+version = "0.1.0"
+description = "Evaluate integer token vesting, cliffs, revocation snapshots and treasury obligations."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-vesting-planner = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

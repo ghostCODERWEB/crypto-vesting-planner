@@ -1,0 +1,13 @@
+{
+  "timestamp": 150,
+  "schedules": [
+    {
+      "id": "team",
+      "total": 1000,
+      "start": 100,
+      "duration": 100,
+      "cliff": 120,
+      "claimed": 100
+    }
+  ]
+}
